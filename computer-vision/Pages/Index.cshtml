@@ -10,17 +10,17 @@
 </div>
 <div>
     <p>
-        <h2>            Computer Vision        </h2>
+        <h2>Computer Vision</h2>
         This is a tutorial workload that is being worked on for a component to my Masters. It uses components from Roboflow with allowing for access to a dataset and API connection.<br />
 
-        <h2>
-            Further updates coming
-        </h2>
-        Camera upload option for pointing camera and getting live information<br />
-        Live translation of information within the applications screen view<br />
-        Content will be lightweight<br />
-        Scalability of the tool to point at different datasources and allow for more complex classifications<br />
-        Translation services could also be included based on translation principles<br />
+        <h2>Further updates coming</h2>
+        <ol>
+            <li>Camera upload option for pointing camera and getting live information</li>
+            <li>Live translation of information within the applications screen view</li>
+            <li>Content will be lightweight</li>
+            <li>Scalability of the tool to point at different datasources and allow for more complex classifications</li>
+            <li>Translation services could also be included based on translation principles</li>
+        </ol>
     </p>
 </div>
 @*<head>
@@ -31,6 +31,7 @@
 <body>
     <form id="inputForm">
         <div class="header">
+            <p>With each of the new datasets, load your own model name, with your API key.</p><br />
             <div class="row row-cols-3 row-cols-md-3 g-3 align-content-center">
                 @*<img class="header__logo" src="https://uploads-ssl.webflow.com/5f6bc60e665f54545a1e52a5/6143750f1177056d60fc52d9_roboflow_logomark_inference.png" alt="Roboflow Inference">*@
                 <div>
@@ -87,7 +88,7 @@
                 <div class="divider"></div>
                 <div class="result-header">
                     <h3 class="headline">Result</h3>
-                    <a href="#">Copy Code</a>
+                    @*<a href="#">Copy Code</a>*@
                 </div>
                 <pre id="output" class="codeblock" /> here is your json </pre>
             </div>

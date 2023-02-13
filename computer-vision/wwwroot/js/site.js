@@ -2,6 +2,9 @@
 // for details on configuring this project to bundle and minify static web assets.
 
 // Write your JavaScript code.
+
+// this block needs updating depending on the API and Model keys
+// it can be used with any variation of the Roboflow API
 $(function () {
 	//values pulled from query string
 	$('#model').val("bushfire-smoke");
